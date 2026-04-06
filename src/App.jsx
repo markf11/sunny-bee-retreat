@@ -189,15 +189,15 @@ export default function App() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
-          <span className="text-amber-400 font-semibold tracking-[0.2em] uppercase mb-4 text-sm drop-shadow-md">
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center animate-fade-up">
+          <span className="text-amber-400 font-bold tracking-[0.3em] uppercase mb-4 text-xs drop-shadow-md">
             Southview Caravan Park, Skegness
           </span>
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 drop-shadow-lg leading-tight">
-            Sunny Bee Retreat
+          <h1 className="text-6xl md:text-8xl font-serif font-bold text-white mb-6 drop-shadow-2xl leading-tight">
+            Sunny Bee <br className="hidden md:block" /> Retreat
           </h1>
-          <p className="text-lg md:text-xl text-stone-100 mb-10 max-w-2xl drop-shadow font-light">
-            An 8-berth cosy caravan in a beautiful, sunny spot that is nice and quiet.
+          <p className="text-xl md:text-2xl text-stone-100 mb-10 max-w-2xl drop-shadow-lg font-light leading-relaxed">
+            An 8-berth luxury escape in a peaceful, sun-drenched sanctuary.
           </p>
         </div>
 
