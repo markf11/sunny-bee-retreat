@@ -26,12 +26,13 @@ const MinimalBeeLogo = ({ className }) => (
     strokeLinejoin="round"
     className={className}
   >
-    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" className="stroke-slate-800" />
-    <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" className="fill-amber-500 stroke-amber-500" />
-    <path d="M12 10c-1.5-3-4-4-6-2s-1 5 1 6" className="stroke-amber-500" />
-    <path d="M12 10c1.5-3 4-4 6-2s1 5-1 6" className="stroke-amber-500" />
-    <path d="M8 14h8" className="stroke-slate-800" />
-    <path d="M9 18h6" className="stroke-slate-800" />
+    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" className="stroke-amber-600 fill-amber-50" />
+    <ellipse cx="12" cy="12" rx="3" ry="4" className="fill-amber-400 stroke-amber-600" />
+    <path d="M9.5 11.5h5" className="stroke-amber-600" />
+    <path d="M9.5 13.5h5" className="stroke-amber-600" />
+    <path d="M11 9c-2-2-4-1-4 1s1 2 4 2" className="fill-white stroke-amber-600" />
+    <path d="M13 9c2-2 4-1 4 1s-1 2-4 2" className="fill-white stroke-amber-600" />
+    <path d="M12 16v1" className="stroke-amber-600" />
   </svg>
 );
 
