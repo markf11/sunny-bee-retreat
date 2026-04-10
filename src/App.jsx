@@ -93,7 +93,7 @@ export default function App() {
     { src: '18577.jpg', category: 'Interior', alt: 'Bedroom layout' },
     
     // Interior - Bathrooms
-    { src: '18588.jpg', category: 'Interior', alt: 'Shower with toilet' },
+    { src: '18588.jpg', category: 'Interior', alt: 'Shower and sink' },
     { src: '18584.jpg', category: 'Interior', alt: 'Inside shower' },
     { src: '18587.jpg', category: 'Interior', alt: 'Separate toilet' },
     { src: '18581.jpg', category: 'Interior', alt: 'Separate toilet facility' },
