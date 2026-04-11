@@ -73,7 +73,6 @@ export default function App() {
     // Interior - Living Space
     { src: '18569.jpg', category: 'Interior', alt: 'Cosy living room and diner' },
     { src: '18572.jpg', category: 'Interior', alt: 'Cosy living room' },
-    { src: '18579.jpg', category: 'Interior', alt: 'Living room with fire and TV' },
     { src: '18563.jpg', category: 'Interior', alt: 'Cosy fireplace view' },
     { src: '18560.jpg', category: 'Interior', alt: 'Living room view' },
     { src: '18565.jpg', category: 'Interior', alt: 'Hallway' },
