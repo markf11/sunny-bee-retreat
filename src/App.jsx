@@ -102,7 +102,7 @@ export default function App() {
     { src: '18582.jpg', category: 'Park', alt: 'Swimming pool' },
     { src: '18580.jpg', category: 'Park', alt: 'Climbing walls' },
     { src: '18568.jpg', category: 'Park', alt: 'Outdoor park and slide' },
-    { src: '18585.jpg', category: 'Park', alt: 'Play area (park)' },
+    { src: '18585.jpg', category: 'Park', alt: 'Outdoor sitting area' },
     { src: '18574.jpg', category: 'Park', alt: 'Outdoor seating area' },
     { src: '18564.jpg', category: 'Park', alt: 'Pirate Crazy Golf' },
     { src: '18561.jpg', category: 'Park', alt: 'Thunderbird Fried Chicken stand' },
@@ -356,11 +356,10 @@ export default function App() {
 
               <div className="grid grid-cols-2 gap-y-4">
                 {[
-                  "Swimming", "Fishing", "Climbing walls", 
-                  "Play area (park)", "Take aways", "Restaurant", 
+                  "Swimming", "Fishing", "Climbing walls",
+                  "Outdoor sitting area", "Take aways", "Restaurant",
                   "Entertainment area", "Bars", "Arcade", "Shop"
-                ].map((amenity, idx) => (
-                  <div key={idx} className="flex items-center space-x-3">
+                ].map((amenity, idx) => (                  <div key={idx} className="flex items-center space-x-3">
                     <div className="w-1.5 h-1.5 bg-amber-500 rounded-full"></div>
                     <span className="text-slate-700 font-medium">{amenity}</span>
                   </div>
