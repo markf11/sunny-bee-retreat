@@ -66,7 +66,7 @@ export default function App() {
   // Complete portfolio array with all 34 provided images categorized
   const portfolioItems = [
     // Exterior
-    { src: '18585.jpg', category: 'Exterior', alt: 'Sunny Bee Retreat Exterior' },
+    { src: '18571.jpg', category: 'Exterior', alt: 'Sunny Bee Retreat Exterior' },
     { src: '18566.jpg', category: 'Exterior', alt: 'Caravan entrance and steps' },
     { src: '18562.jpg', category: 'Exterior', alt: 'Caravan side and outdoor seating' },
     
@@ -80,7 +80,7 @@ export default function App() {
     { src: '18557.jpg', category: 'Interior', alt: 'Kitchen and hallway view' },
     
     // Interior - Kitchen
-    { src: '18583.jpg', category: 'Interior', alt: 'Open plan kitchen and diner' },
+    { src: '18576.jpg', category: 'Interior', alt: 'Open plan kitchen and diner' },
     { src: '18570.jpg', category: 'Interior', alt: 'Kitchen area and cooker' },
     { src: '18556.jpg', category: 'Interior', alt: 'Kitchen sink and counter' },
     
@@ -97,13 +97,13 @@ export default function App() {
     { src: '18584.jpg', category: 'Interior', alt: 'Inside shower' },
     { src: '18587.jpg', category: 'Interior', alt: 'Separate toilet' },
     { src: '18581.jpg', category: 'Interior', alt: 'Separate toilet facility' },
-    { src: '18576.jpg', category: 'Interior', alt: 'Separate toilet' },
+    { src: '18583.jpg', category: 'Interior', alt: 'Separate toilet' },
     
     // Park & Amenities
     { src: '18582.jpg', category: 'Park', alt: 'Swimming pool' },
     { src: '18580.jpg', category: 'Park', alt: 'Climbing walls' },
     { src: '18568.jpg', category: 'Park', alt: 'Outdoor park and slide' },
-    { src: '18571.jpg', category: 'Park', alt: 'Play area (park)' },
+    { src: '18585.jpg', category: 'Park', alt: 'Play area (park)' },
     { src: '18574.jpg', category: 'Park', alt: 'Outdoor seating area' },
     { src: '18564.jpg', category: 'Park', alt: 'Pirate Crazy Golf' },
     { src: '18561.jpg', category: 'Park', alt: 'Thunderbird Fried Chicken stand' },
@@ -121,7 +121,7 @@ export default function App() {
     { src: '18580.jpg', alt: 'Climbing walls' },
   ];
 
-  const heroExteriorImage = '18585.jpg';
+  const heroExteriorImage = '18571.jpg';
 
   return (
     <div className="min-h-screen bg-stone-50 font-sans text-slate-800">
