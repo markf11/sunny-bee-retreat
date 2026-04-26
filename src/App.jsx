@@ -402,9 +402,10 @@ export default function App() {
 
             <div className="flex flex-col items-start md:items-end">
               <h4 className="text-white font-serif font-bold mb-6 text-lg hidden md:block">Reservations</h4>
-              <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors w-full shadow-lg">
-                BOOK YOUR STAY
-              </button>
+              <a href="mailto:your-email@example.com?subject=Booking Inquiry for Sunny Bee Retreat" className="flex items-center justify-center bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors w-full shadow-lg">
+                <Mail className="w-5 h-5 mr-3" />
+                EMAIL OWNER TO BOOK
+              </a>
             </div>
 
           </div>
