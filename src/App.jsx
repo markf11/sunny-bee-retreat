@@ -11,7 +11,8 @@ import {
   X,
   ChevronRight,
   Calendar,
-  Users
+  Users,
+  Mail
 } from 'lucide-react';
 
 // Refined, minimalist logo for a premium look
@@ -201,32 +202,16 @@ export default function App() {
           </p>
         </div>
 
-        {/* Floating Booking Bar (Desktop) */}
-        <div className="hidden md:flex absolute -bottom-10 left-1/2 transform -translate-x-1/2 bg-white p-4 rounded-sm shadow-2xl w-[90%] max-w-5xl items-center justify-between border border-stone-100 z-20">
-          <div className="flex items-center space-x-4 px-6 py-2 border-r border-stone-200 flex-1">
-            <Calendar className="text-amber-600 w-5 h-5" />
-            <div className="flex flex-col text-left">
-              <span className="text-xs font-bold text-slate-400 tracking-wider uppercase">Check in</span>
-              <span className="text-slate-900 font-medium">Select Date</span>
-            </div>
+        {/* Floating Contact Bar (Desktop) */}
+        <div className="hidden md:flex absolute -bottom-10 left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-sm shadow-2xl w-[90%] max-w-4xl items-center justify-between border border-stone-100 z-20">
+          <div className="flex flex-col text-left px-4">
+            <h3 className="text-xl font-serif font-bold text-slate-900">Ready to Book Your Stay?</h3>
+            <p className="text-slate-500 mt-1">Get in touch directly with the owner to check availability and secure the best rates.</p>
           </div>
-          <div className="flex items-center space-x-4 px-6 py-2 border-r border-stone-200 flex-1">
-            <Calendar className="text-amber-600 w-5 h-5" />
-            <div className="flex flex-col text-left">
-              <span className="text-xs font-bold text-slate-400 tracking-wider uppercase">Check out</span>
-              <span className="text-slate-900 font-medium">Select Date</span>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4 px-6 py-2 flex-1">
-            <Users className="text-amber-600 w-5 h-5" />
-            <div className="flex flex-col text-left">
-              <span className="text-xs font-bold text-slate-400 tracking-wider uppercase">Guests</span>
-              <span className="text-slate-900 font-medium">Up to 8</span>
-            </div>
-          </div>
-          <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors whitespace-nowrap ml-4">
-            CHECK AVAILABILITY
-          </button>
+          <a href="mailto:your-email@example.com?subject=Booking Inquiry for Sunny Bee Retreat" className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors whitespace-nowrap ml-4 flex items-center">
+            <Mail className="w-5 h-5 mr-3" />
+            EMAIL OWNER
+          </a>
         </div>
       </section>
 
@@ -243,9 +228,10 @@ export default function App() {
           </p>
           
           {/* Mobile Booking Button */}
-          <button className="md:hidden mt-10 bg-amber-600 text-white px-8 py-4 rounded-sm font-semibold tracking-wide w-full shadow-lg">
-            CHECK AVAILABILITY
-          </button>
+          <a href="mailto:your-email@example.com?subject=Booking Inquiry for Sunny Bee Retreat" className="md:hidden mt-10 flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-sm font-semibold tracking-wide w-full shadow-lg">
+            <Mail className="w-5 h-5 mr-3" />
+            EMAIL OWNER TO BOOK
+          </a>
         </div>
       </section>
 
