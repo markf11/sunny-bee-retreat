@@ -208,7 +208,7 @@ export default function App() {
             <h3 className="text-xl font-serif font-bold text-slate-900">Ready to Book Your Stay?</h3>
             <p className="text-slate-500 mt-1">Get in touch directly with the owner to check availability and secure the best rates.</p>
           </div>
-          <a href="mailto:Bailey.1984@live.co.uk,nyron89@outlook.com?subject=Booking Inquiry for Sunny Bee Retreat" className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors whitespace-nowrap ml-4 flex items-center">
+          <a href="mailto:Bailey.1984@live.co.uk?subject=Booking Inquiry for Sunny Bee Retreat" className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors whitespace-nowrap ml-4 flex items-center">
             <Mail className="w-5 h-5 mr-3" />
             EMAIL OWNER
           </a>
@@ -228,7 +228,7 @@ export default function App() {
           </p>
           
           {/* Mobile Booking Button */}
-          <a href="mailto:Bailey.1984@live.co.uk,nyron89@outlook.com?subject=Booking Inquiry for Sunny Bee Retreat" className="md:hidden mt-10 flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-sm font-semibold tracking-wide w-full shadow-lg">
+          <a href="mailto:Bailey.1984@live.co.uk?subject=Booking Inquiry for Sunny Bee Retreat" className="md:hidden mt-10 flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-sm font-semibold tracking-wide w-full shadow-lg">
             <Mail className="w-5 h-5 mr-3" />
             EMAIL OWNER TO BOOK
           </a>
@@ -402,7 +402,7 @@ export default function App() {
 
             <div className="flex flex-col items-start md:items-end">
               <h4 className="text-white font-serif font-bold mb-6 text-lg hidden md:block">Reservations</h4>
-              <a href="mailto:Bailey.1984@live.co.uk,nyron89@outlook.com?subject=Booking Inquiry for Sunny Bee Retreat" className="flex items-center justify-center bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors w-full shadow-lg">
+              <a href="mailto:Bailey.1984@live.co.uk?subject=Booking Inquiry for Sunny Bee Retreat" className="flex items-center justify-center bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-sm font-semibold tracking-wide transition-colors w-full shadow-lg">
                 <Mail className="w-5 h-5 mr-3" />
                 EMAIL OWNER TO BOOK
               </a>
